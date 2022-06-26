@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.5.0](https://github.com/Jucian0/nx-monorepo/compare/use-element-0.4.0...use-element-0.5.0) (2022-06-26)
+
+
+### Features
+
+* add commitlint e husky ([09daf0d](https://github.com/Jucian0/nx-monorepo/commit/09daf0dd0457cadff9dc298f659e002ce31a94d4))
+
 ## [0.4.0](https://github.com/Jucian0/nx-monorepo/compare/use-element-0.3.0...use-element-0.4.0) (2022-06-26)
 
 

@@ -7,6 +7,14 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ### Features
 
+* add commitlint e husky ([d3bc45d](https://github.com/Jucian0/nx-monorepo/commit/d3bc45da07fcbacc79961e4e5d31ded23a88f312))
+* add commitlint e husky ([edddf4c](https://github.com/Jucian0/nx-monorepo/commit/edddf4c6146e49969d7809cb90425b8910234947))
+
+## [0.5.0](https://github.com/Jucian0/nx-monorepo/compare/use-fala-0.4.0...use-fala-0.5.0) (2022-06-26)
+
+
+### Features
+
 * add commitlint e husky ([edddf4c](https://github.com/Jucian0/nx-monorepo/commit/edddf4c6146e49969d7809cb90425b8910234947))
 
 ## [0.4.0](https://github.com/Jucian0/nx-monorepo/compare/use-fala-0.3.0...use-fala-0.4.0) (2022-06-26)

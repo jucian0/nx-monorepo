@@ -5,14 +5,20 @@
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["packages/use-root/**/*.ts"]
+        "lintFilePatterns": [
+          "packages/use-root/**/*.ts"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/use-root"],
+      "outputs": [
+        "coverage/packages/use-root"
+      ],
       "options": {
         "jestConfig": "packages/use-root/jest.config.ts",
         "passWithNoTests": true
@@ -22,6 +28,16 @@
       "executor": "@jscutlery/semver:version",
       "options": {
         "preset": "conventional"
+      }
+    },
+    "publish": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "commands": [
+          {
+            "command": "npm publish dist/packages/use-root"
+          }
+        ]
       }
     }
   },

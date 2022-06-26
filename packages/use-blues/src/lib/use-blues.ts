@@ -1,3 +1,3 @@
 export function useBlues(): string {
-  return 'use-blues 2';
+  return 'use-blues 22';
 }

@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-test/use-blues": ["packages/use-blues/src/index.ts"],
+      "@nx-test/use-elememnt": ["packages/use-element/src/index.ts"],
+      "@nx-test/use-root": ["packages/use-root/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

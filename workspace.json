@@ -1,5 +1,9 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "use-blues": "packages/use-blues",
+    "use-element": "packages/use-element",
+    "use-root": "packages/use-root"
+  }
 }

@@ -1,3 +1,3 @@
 export function useTest(): string {
-  return 'use-test 2';
+  return 'use-test 22';
 }

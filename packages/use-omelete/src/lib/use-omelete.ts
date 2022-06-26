@@ -1,3 +1,3 @@
 export function useOmelete(): string {
-  return 'use-omelete';
+  return 'use-omelete22';
 }

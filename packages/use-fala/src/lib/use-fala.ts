@@ -1,3 +1,3 @@
 export function useFala(): string {
-  return 'use-fala';
+  return 'use-fala 2';
 }

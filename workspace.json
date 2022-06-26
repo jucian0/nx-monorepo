@@ -5,6 +5,7 @@
     "use-blues": "packages/use-blues",
     "use-element": "packages/use-element",
     "use-fala": "packages/use-fala",
+    "use-omelete": "packages/use-omelete",
     "use-root": "packages/use-root",
     "use-test": "packages/use-test"
   }

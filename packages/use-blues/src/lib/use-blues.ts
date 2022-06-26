@@ -8,5 +8,5 @@ export function useBlues(): string {
   useFala();
   useRoot();
   useTest();
-  return 'use-blues 2';
+  return 'use-blues 22';
 }

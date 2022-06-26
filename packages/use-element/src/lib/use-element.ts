@@ -1,3 +1,3 @@
 export function useElement(): string {
-  return 'use-element 22';
+  return 'use-element 2';
 }

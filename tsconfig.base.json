@@ -17,7 +17,9 @@
     "paths": {
       "@nx-test/use-blues": ["packages/use-blues/src/index.ts"],
       "@nx-test/use-elememnt": ["packages/use-element/src/index.ts"],
-      "@nx-test/use-root": ["packages/use-root/src/index.ts"]
+      "@nx-test/use-fala": ["packages/use-fala/src/index.ts"],
+      "@nx-test/use-root": ["packages/use-root/src/index.ts"],
+      "@nx-test/use-test": ["packages/use-test/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

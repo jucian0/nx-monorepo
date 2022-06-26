@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.5.0](https://github.com/Jucian0/nx-monorepo/compare/use-blues-0.4.0...use-blues-0.5.0) (2022-06-26)
+
+
+### Features
+
+* add commitlint e husky ([f2ff4fc](https://github.com/Jucian0/nx-monorepo/commit/f2ff4fc5c9104059149d64e401eb38e6eb6ef51b))
+
 ## [0.4.0](https://github.com/Jucian0/nx-monorepo/compare/use-blues-0.3.0...use-blues-0.4.0) (2022-06-26)
 
 

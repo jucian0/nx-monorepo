@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.4.0](https://github.com/Jucian0/nx-monorepo/compare/use-omelete-0.3.0...use-omelete-0.4.0) (2022-06-26)
+
+
+### Features
+
+* add commitlint e husky ([2c70dce](https://github.com/Jucian0/nx-monorepo/commit/2c70dce268fa7b40a493c15c97ad241d8e705fdb))
+
 ## [0.3.0](https://github.com/Jucian0/nx-monorepo/compare/use-omelete-0.2.0...use-omelete-0.3.0) (2022-06-26)
 
 

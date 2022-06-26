@@ -1,3 +1,3 @@
 export function useAlert(): string {
-  return 'use-alert222';
+  return 'use-alert2222';
 }

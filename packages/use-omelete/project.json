@@ -3,6 +3,20 @@
   "sourceRoot": "packages/use-omelete/src",
   "projectType": "library",
   "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "options": {
+        "outputPath": "dist/packages/use-omelete",
+        "main": "packages/use-omelete/src/index.ts",
+        "tsConfig": "packages/use-omelete/tsconfig.lib.json",
+        "assets": [
+          "packages/use-omelete/*.md"
+        ]
+      }
+    },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": [

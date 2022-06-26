@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/use-fala/src",
+  "sourceRoot": "packages/use-alert/src",
   "projectType": "library",
   "targets": {
     "build": {
@@ -9,11 +9,11 @@
         "{options.outputPath}"
       ],
       "options": {
-        "outputPath": "dist/packages/use-fala",
-        "main": "packages/use-fala/src/index.ts",
-        "tsConfig": "packages/use-fala/tsconfig.lib.json",
+        "outputPath": "dist/packages/use-alert",
+        "main": "packages/use-alert/src/index.ts",
+        "tsConfig": "packages/use-alert/tsconfig.lib.json",
         "assets": [
-          "packages/use-fala/*.md"
+          "packages/use-alert/*.md"
         ]
       }
     },
@@ -24,17 +24,17 @@
       ],
       "options": {
         "lintFilePatterns": [
-          "packages/use-fala/**/*.ts"
+          "packages/use-alert/**/*.ts"
         ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
       "outputs": [
-        "coverage/packages/use-fala"
+        "coverage/packages/use-alert"
       ],
       "options": {
-        "jestConfig": "packages/use-fala/jest.config.ts",
+        "jestConfig": "packages/use-alert/jest.config.ts",
         "passWithNoTests": true
       }
     },
@@ -49,7 +49,7 @@
       "options": {
         "commands": [
           {
-            "command": "npm publish dist/packages/use-fala"
+            "command": "npm publish dist/packages/use-alert"
           }
         ]
       }

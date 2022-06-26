@@ -3,6 +3,20 @@
   "sourceRoot": "packages/use-element/src",
   "projectType": "library",
   "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "options": {
+        "outputPath": "dist/packages/use-element",
+        "main": "packages/use-element/src/index.ts",
+        "tsConfig": "packages/use-element/tsconfig.lib.json",
+        "assets": [
+          "packages/use-element/*.md"
+        ]
+      }
+    },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": [

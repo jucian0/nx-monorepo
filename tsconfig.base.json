@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nx-test/use-alert": ["packages/use-alert/src/index.ts"],
       "@nx-test/use-blues": ["packages/use-blues/src/index.ts"],
       "@nx-test/use-elememnt": ["packages/use-element/src/index.ts"],
       "@nx-test/use-fala": ["packages/use-fala/src/index.ts"],

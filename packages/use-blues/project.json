@@ -3,6 +3,20 @@
   "sourceRoot": "packages/use-blues/src",
   "projectType": "library",
   "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "options": {
+        "outputPath": "dist/packages/use-blues",
+        "main": "packages/use-blues/src/index.ts",
+        "tsConfig": "packages/use-blues/tsconfig.lib.json",
+        "assets": [
+          "packages/use-blues/*.md"
+        ]
+      }
+    },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": [

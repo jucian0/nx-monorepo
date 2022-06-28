@@ -43,10 +43,7 @@
       "options": {
         "preset": "conventional",
         "push": true,
-        "noVerify": true,
-        "postTargets": [
-          "use-blues:publish"
-        ]
+        "noVerify": true
       }
     },
     "publish": {

@@ -43,10 +43,7 @@
       "options": {
         "preset": "conventional",
         "push": true,
-        "noVerify": true,
-        "postTargets": [
-          "use-omelete:publish"
-        ]
+        "noVerify": true
       }
     },
     "publish": {

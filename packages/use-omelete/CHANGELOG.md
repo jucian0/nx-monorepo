@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.1.1](https://github.com/Jucian0/nx-monorepo/compare/use-omelete-0.1.0...use-omelete-0.1.1) (2022-06-28)
+
+### Dependency Updates
+
+* `use-root` updated to version `0.1.11`
+
+### Bug Fixes
+
+* fixing ci ([1e6c54b](https://github.com/Jucian0/nx-monorepo/commit/1e6c54b5d773559ed39c82888ad700b99eea45fa))
+
 ## 0.1.0 (2022-06-28)
 
 

@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.2.1](https://github.com/Jucian0/nx-monorepo/compare/use-root-0.2.0...use-root-0.2.1) (2022-06-28)
+
 ## [0.2.0](https://github.com/Jucian0/nx-monorepo/compare/use-root-0.1.0...use-root-0.2.0) (2022-06-28)
 
 

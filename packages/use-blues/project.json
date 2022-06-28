@@ -41,7 +41,12 @@
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {
-        "preset": "conventional"
+        "preset": "conventional",
+        "push": true,
+        "noVerify": true,
+        "postTargets": [
+          "version:publish"
+        ]
       }
     },
     "publish": {

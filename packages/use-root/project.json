@@ -5,24 +5,34 @@
   "targets": {
     "build": {
       "executor": "@nrwl/js:tsc",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/packages/use-root",
         "main": "packages/use-root/src/index.ts",
         "tsConfig": "packages/use-root/tsconfig.lib.json",
-        "assets": ["packages/use-root/*.md"]
+        "assets": [
+          "packages/use-root/*.md"
+        ]
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["packages/use-root/**/*.ts"]
+        "lintFilePatterns": [
+          "packages/use-root/**/*.ts"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/use-root"],
+      "outputs": [
+        "coverage/packages/use-root"
+      ],
       "options": {
         "jestConfig": "packages/use-root/jest.config.ts",
         "passWithNoTests": true
@@ -31,7 +41,12 @@
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {
-        "preset": "conventional"
+        "preset": "conventional",
+        "push": true,
+        "noVerify": true,
+        "postTargets": [
+          "version:publish"
+        ]
       }
     },
     "publish": {

@@ -5,24 +5,34 @@
   "targets": {
     "build": {
       "executor": "@nrwl/js:tsc",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/packages/use-omelete",
         "main": "packages/use-omelete/src/index.ts",
         "tsConfig": "packages/use-omelete/tsconfig.lib.json",
-        "assets": ["packages/use-omelete/*.md"]
+        "assets": [
+          "packages/use-omelete/*.md"
+        ]
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["packages/use-omelete/**/*.ts"]
+        "lintFilePatterns": [
+          "packages/use-omelete/**/*.ts"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/use-omelete"],
+      "outputs": [
+        "coverage/packages/use-omelete"
+      ],
       "options": {
         "jestConfig": "packages/use-omelete/jest.config.ts",
         "passWithNoTests": true
@@ -31,7 +41,12 @@
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {
-        "preset": "conventional"
+        "preset": "conventional",
+        "push": true,
+        "noVerify": true,
+        "postTargets": [
+          "version:publish"
+        ]
       }
     },
     "publish": {

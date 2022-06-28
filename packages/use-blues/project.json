@@ -5,24 +5,34 @@
   "targets": {
     "build": {
       "executor": "@nrwl/js:tsc",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/packages/use-blues",
         "main": "packages/use-blues/src/index.ts",
         "tsConfig": "packages/use-blues/tsconfig.lib.json",
-        "assets": ["packages/use-blues/*.md"]
+        "assets": [
+          "packages/use-blues/*.md"
+        ]
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["packages/use-blues/**/*.ts"]
+        "lintFilePatterns": [
+          "packages/use-blues/**/*.ts"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/use-blues"],
+      "outputs": [
+        "coverage/packages/use-blues"
+      ],
       "options": {
         "jestConfig": "packages/use-blues/jest.config.ts",
         "passWithNoTests": true

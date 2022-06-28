@@ -2,6 +2,18 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.2.0](https://github.com/Jucian0/nx-monorepo/compare/use-root-0.1.0...use-root-0.2.0) (2022-06-28)
+
+
+### Features
+
+* **init:** init ([4b16904](https://github.com/Jucian0/nx-monorepo/commit/4b16904cff0f84bf9002bffde4f8f9b1ddda8b31))
+
+
+### Bug Fixes
+
+* **useroot:** test version ([3f6713a](https://github.com/Jucian0/nx-monorepo/commit/3f6713a9cdab9e0612526869ca73f510f7218106))
+
 ### [0.1.1](https://github.com/Jucian0/nx-monorepo/compare/use-root-0.1.0...use-root-0.1.1) (2022-06-28)
 
 

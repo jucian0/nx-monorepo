@@ -1,3 +1,3 @@
 export function useRoot(): string {
-  return 'use-root 7';
+  return 'use-root 8';
 }

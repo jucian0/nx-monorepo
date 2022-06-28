@@ -7,6 +7,14 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ### Bug Fixes
 
+* **project:** remove .npmrc ([9878c13](https://github.com/Jucian0/nx-monorepo/commit/9878c13f281706d4e5358d9ecfe7eebc529b3d7d))
+* **useroot:** test version ([25c8d3e](https://github.com/Jucian0/nx-monorepo/commit/25c8d3ea4972c30b0d6e4ab7ab4bfcb6d42ed598))
+
+### [0.8.1](https://github.com/Jucian0/nx-monorepo/compare/use-test-0.8.0...use-test-0.8.1) (2022-06-28)
+
+
+### Bug Fixes
+
 * **useroot:** test version ([25c8d3e](https://github.com/Jucian0/nx-monorepo/commit/25c8d3ea4972c30b0d6e4ab7ab4bfcb6d42ed598))
 
 ## [0.8.0](https://github.com/Jucian0/nx-monorepo/compare/use-test-0.7.0...use-test-0.8.0) (2022-06-28)

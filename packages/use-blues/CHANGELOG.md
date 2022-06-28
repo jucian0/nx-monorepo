@@ -2,6 +2,11 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.1.4](https://github.com/Jucian0/nx-monorepo/compare/use-blues-0.1.3...use-blues-0.1.4) (2022-06-28)
+
+### Dependency Updates
+
+* `use-root` updated to version `0.1.8`
 ### [0.1.3](https://github.com/Jucian0/nx-monorepo/compare/use-blues-0.1.2...use-blues-0.1.3) (2022-06-28)
 
 ### Dependency Updates

@@ -2,6 +2,18 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.8.0](https://github.com/Jucian0/nx-monorepo/compare/use-test-0.7.0...use-test-0.8.0) (2022-06-28)
+
+
+### Features
+
+* **init:** init project ([e7ead9b](https://github.com/Jucian0/nx-monorepo/commit/e7ead9b4c12f53d8b975bfd45aad4f904d8bff63))
+
+
+### Bug Fixes
+
+* **usetest:** add useRoot as dependency ([88726b4](https://github.com/Jucian0/nx-monorepo/commit/88726b4706a582c6a902fe224b75783475599051))
+
 ## [0.7.0](https://github.com/Jucian0/nx-monorepo/compare/use-test-0.6.0...use-test-0.7.0) (2022-06-26)
 
 ### Features

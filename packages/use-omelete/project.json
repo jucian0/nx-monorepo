@@ -42,7 +42,6 @@
       "executor": "@jscutlery/semver:version",
       "options": {
         "preset": "conventional",
-        "push": true,
         "noVerify": true
       }
     },

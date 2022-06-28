@@ -25,19 +25,19 @@
     }
   },
   "targetDefaults": {
-    "build": {
-      "dependsOn": [
-        "^build"
-      ]
-    },
     "version": {
       "dependsOn": [
-        "build"
+        "^version"
+      ]
+    },
+    "build": {
+      "dependsOn": [
+        "version"
       ]
     },
     "publish": {
       "dependsOn": [
-        "version"
+        "build"
       ]
     }
   },

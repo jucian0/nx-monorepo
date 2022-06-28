@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.1.3](https://github.com/Jucian0/nx-monorepo/compare/use-test-0.1.2...use-test-0.1.3) (2022-06-28)
+
 ### [0.1.2](https://github.com/Jucian0/nx-monorepo/compare/use-test-0.1.1...use-test-0.1.2) (2022-06-28)
 
 ### Dependency Updates

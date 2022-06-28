@@ -1,5 +1,5 @@
 export function useAlert(): string {
-  return 'use-alert2222';
+  return 'use-alert';
 }
 // npx nx affected --target=publish --base=remotes/origin/main~1 --parallel=1
 

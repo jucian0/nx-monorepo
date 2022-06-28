@@ -2,6 +2,19 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.7.0](https://github.com/Jucian0/nx-monorepo/compare/use-root-0.6.0...use-root-0.7.0) (2022-06-28)
+
+
+### Features
+
+* add commitlint e husky ([edddf4c](https://github.com/Jucian0/nx-monorepo/commit/edddf4c6146e49969d7809cb90425b8910234947))
+* **init:** init project ([e7ead9b](https://github.com/Jucian0/nx-monorepo/commit/e7ead9b4c12f53d8b975bfd45aad4f904d8bff63))
+
+
+### Bug Fixes
+
+* **useroot:** change useRoot ([0c3a7f2](https://github.com/Jucian0/nx-monorepo/commit/0c3a7f287fe1d7adb396b59f023d3b0299eeb940))
+
 ## [0.7.0](https://github.com/Jucian0/nx-monorepo/compare/use-root-0.6.0...use-root-0.7.0) (2022-06-26)
 
 ### Features

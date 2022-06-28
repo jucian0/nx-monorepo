@@ -30,6 +30,41 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ### Bug Fixes
 
+* fixing ci ([65f39b3](https://github.com/Jucian0/nx-monorepo/commit/65f39b3eea7655ae2c690b3fbda7a308ffeae2a6))
+* fixing ci ([3807bd5](https://github.com/Jucian0/nx-monorepo/commit/3807bd5b982e21e3fa126b3b5b9545eff7ec7f7a))
+* fixing ci ([7417e47](https://github.com/Jucian0/nx-monorepo/commit/7417e4774abb80a572439b6797842b48a8321ea7))
+* fixing ci ([0a5dc65](https://github.com/Jucian0/nx-monorepo/commit/0a5dc65b257bff59c9ca6177802b9408453eb807))
+* fixing ci ([ee70f55](https://github.com/Jucian0/nx-monorepo/commit/ee70f555dfba585d3dcb0350a2af2989bfe5c767))
+* **usetest:** add useRoot as dependency ([88726b4](https://github.com/Jucian0/nx-monorepo/commit/88726b4706a582c6a902fe224b75783475599051))
+
+## 0.1.0 (2022-06-28)
+
+
+### Features
+
+* add commitlint e husky ([d3bc45d](https://github.com/Jucian0/nx-monorepo/commit/d3bc45da07fcbacc79961e4e5d31ded23a88f312))
+* add commitlint e husky ([edddf4c](https://github.com/Jucian0/nx-monorepo/commit/edddf4c6146e49969d7809cb90425b8910234947))
+* add commitlint e husky ([2249c01](https://github.com/Jucian0/nx-monorepo/commit/2249c012ab4a8de9fd68cf6484d532663d4f6e84))
+* add commitlint e husky ([0bce31e](https://github.com/Jucian0/nx-monorepo/commit/0bce31e4daf9ff9f4c1473d8594698d44316df82))
+* add commitlint e husky ([cf8156c](https://github.com/Jucian0/nx-monorepo/commit/cf8156c68bb8f7f681aa467f7cb2cea700f09c49))
+* add commitlint e husky ([695a1c5](https://github.com/Jucian0/nx-monorepo/commit/695a1c5097ca5dd4da47bf71a5dcb4745ed653d4))
+* add commitlint e husky ([943c033](https://github.com/Jucian0/nx-monorepo/commit/943c033fb775011b0410639c2710641e251a2028))
+* add commitlint e husky ([f2ff4fc](https://github.com/Jucian0/nx-monorepo/commit/f2ff4fc5c9104059149d64e401eb38e6eb6ef51b))
+* add commitlint e husky ([6b89e3b](https://github.com/Jucian0/nx-monorepo/commit/6b89e3b35093a8512f6342d1b40d175622c19645))
+* add commitlint e husky ([2d77109](https://github.com/Jucian0/nx-monorepo/commit/2d7710966a1f6bb34f6eeae26ae88e7c1677d431))
+* add commitlint e husky ([f37bc96](https://github.com/Jucian0/nx-monorepo/commit/f37bc9689b100421d0b55e553e9e57b2527df5db))
+* add commitlint e husky ([b95278b](https://github.com/Jucian0/nx-monorepo/commit/b95278b3a2e00d98666e6e9aaab0a9c3f9644e20))
+* add commitlint e husky ([e8b79cb](https://github.com/Jucian0/nx-monorepo/commit/e8b79cbc2bd358e018414153a44f0a2ef66f1f97))
+* add commitlint e husky ([fe52499](https://github.com/Jucian0/nx-monorepo/commit/fe5249900375c9d4c8e00441b7ba57a2c61034d3))
+* add commitlint e husky ([f2e20e9](https://github.com/Jucian0/nx-monorepo/commit/f2e20e91719fbca3241ce200d966567d834c813c))
+* add commitlint e husky ([620b7da](https://github.com/Jucian0/nx-monorepo/commit/620b7da2f114f92f339fde1d40a684469973049b))
+* add commitlint e husky ([f14ac6e](https://github.com/Jucian0/nx-monorepo/commit/f14ac6e9beb329f5778fb414e9865883bb7f7e24))
+* add commitlint e husky ([aefe68c](https://github.com/Jucian0/nx-monorepo/commit/aefe68c00599944fc3a0580559d4431b688b50cb))
+* **init:** init project ([e7ead9b](https://github.com/Jucian0/nx-monorepo/commit/e7ead9b4c12f53d8b975bfd45aad4f904d8bff63))
+
+
+### Bug Fixes
+
 * fixing ci ([3807bd5](https://github.com/Jucian0/nx-monorepo/commit/3807bd5b982e21e3fa126b3b5b9545eff7ec7f7a))
 * fixing ci ([7417e47](https://github.com/Jucian0/nx-monorepo/commit/7417e4774abb80a572439b6797842b48a8321ea7))
 * fixing ci ([0a5dc65](https://github.com/Jucian0/nx-monorepo/commit/0a5dc65b257bff59c9ca6177802b9408453eb807))

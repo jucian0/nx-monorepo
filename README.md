@@ -1,4 +1,4 @@
-# NxTest
+# Nx monorepo with semantic version
 
 This is a monorepo boilerplate generated using [Nx](https://nx.dev), and [semver](https://github.com/jscutlery/semver).
 

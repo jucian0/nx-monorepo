@@ -21,7 +21,10 @@
       "@nx-test/use-fala": ["packages/use-fala/src/index.ts"],
       "@nx-test/use-omelete": ["packages/use-omelete/src/index.ts"],
       "@nx-test/use-root": ["packages/use-root/src/index.ts"],
-      "@nx-test/use-test": ["packages/use-test/src/index.ts"]
+      "@nx-test/use-test": ["packages/use-test/src/index.ts"],
+      "root": ["packages/root/src/index.ts"],
+      "use-number": ["packages/use-number/src/index.ts"],
+      "use-viewport-size": ["packages/use-viewport-size/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

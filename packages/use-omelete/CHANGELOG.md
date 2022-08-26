@@ -10,6 +10,22 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 * fixing ci ([aaf8c1b](https://github.com/Jucian0/nx-monorepo/commit/aaf8c1b56fc6195e9e15eaf17e0b82c1f8ff3309))
 * fixing ci ([6990c9f](https://github.com/Jucian0/nx-monorepo/commit/6990c9f48f8342722d68b090ee522ba5ab104ea1))
 
+### [0.1.6](https://github.com/Jucian0/nx-monorepo/compare/use-omelete-0.1.5...use-omelete-0.1.6) (2022-08-26)
+
+
+### Bug Fixes
+
+* fixing ci ([aaf8c1b](https://github.com/Jucian0/nx-monorepo/commit/aaf8c1b56fc6195e9e15eaf17e0b82c1f8ff3309))
+* fixing ci ([6990c9f](https://github.com/Jucian0/nx-monorepo/commit/6990c9f48f8342722d68b090ee522ba5ab104ea1))
+
+### [0.1.6](https://github.com/Jucian0/nx-monorepo/compare/use-omelete-0.1.5...use-omelete-0.1.6) (2022-08-26)
+
+
+### Bug Fixes
+
+* fixing ci ([aaf8c1b](https://github.com/Jucian0/nx-monorepo/commit/aaf8c1b56fc6195e9e15eaf17e0b82c1f8ff3309))
+* fixing ci ([6990c9f](https://github.com/Jucian0/nx-monorepo/commit/6990c9f48f8342722d68b090ee522ba5ab104ea1))
+
 ### [0.1.9](https://github.com/Jucian0/nx-monorepo/compare/use-omelete-0.1.8...use-omelete-0.1.9) (2022-06-28)
 
 

@@ -1,6 +1,5 @@
-import {root} from 'root'
+import { root } from 'root';
 export function useNumber(): string {
-root()
-console.log('alo')
+  root();
   return 'use-number';
 }

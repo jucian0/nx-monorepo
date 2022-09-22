@@ -3,10 +3,7 @@
   "version": 2,
   "projects": {
     "root": "packages/root",
-    "use-blues": "packages/use-blues",
     "use-number": "packages/use-number",
-    "use-omelete": "packages/use-omelete",
-    "use-root": "packages/use-root",
-    "use-viewport-size": "packages/use-viewport-size"
+    "use-root": "packages/use-root"
   }
 }

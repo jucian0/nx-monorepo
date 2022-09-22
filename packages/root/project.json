@@ -5,12 +5,16 @@
   "targets": {
     "build": {
       "executor": "@nrwl/js:tsc",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/packages/root",
         "main": "packages/root/src/index.ts",
         "tsConfig": "packages/root/tsconfig.lib.json",
-        "assets": ["packages/root/*.md"]
+        "assets": [
+          "packages/root/*.md"
+        ]
       }
     },
     "publish": {
@@ -28,22 +32,41 @@
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {
-        "preset": "conventional"
+        "preset": "conventional",
+        "noVerify": true,
+        "commitMessageFormat": "chore(${projectName}): release version ${version} [skip ci]",
+        "tagPrefix": "@sensedia-ui/${projectName}@",
+        "baseBranch": "main",
+        "postTargets": [
+          "root:deploy"
+        ]
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["packages/root/**/*.ts"]
+        "lintFilePatterns": [
+          "packages/root/**/*.ts"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/root"],
+      "outputs": [
+        "coverage/packages/root"
+      ],
       "options": {
         "jestConfig": "packages/root/jest.config.ts",
         "passWithNoTests": true
+      }
+    },
+    "deploy": {
+      "executor": "ngx-deploy-npm:deploy",
+      "options": {
+        "access": "public"
       }
     }
   },
